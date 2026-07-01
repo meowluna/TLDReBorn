@@ -488,6 +488,9 @@ if (!t) {
 			// 根据系统主题自动切换深色模式（欧路通过 body 的 black/night 类，非欧路通过 prefers-color-scheme）
 			function detectDarkMode() {
 				function applyTheme(theme) {
+					var mode = window.dark_mode;
+					if (mode == 1) theme = 'light';
+					else if (mode == 2) theme = 'dark';
 					$(document.body).toggleClass('tld-dark', theme === 'dark');
 					$('.dict-section-all').toggleClass('tld-dark', theme === 'dark');
 				}
