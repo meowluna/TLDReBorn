@@ -613,4 +613,4 @@ if (!t) {
 }
 t = 1;
 
-// console.clear();
+console.clear();
