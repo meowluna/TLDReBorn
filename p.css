@@ -722,6 +722,7 @@ hr {
 
 .tld-dark .coca-srank-section {
     border-color: var(--dm-border);
+    box-shadow: 2px 3px 2px var(--dm-shadow);
 }
 
 .tld-dark .coca-srank-header {
