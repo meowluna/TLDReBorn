@@ -43,6 +43,10 @@ body {
     box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.05);
 }
 
+.coca-srank-section.freq-hidden {
+    display: none;
+}
+
 .coca-srank-header {
     display: flex;
     align-items: center;

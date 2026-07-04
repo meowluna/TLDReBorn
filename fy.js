@@ -372,7 +372,7 @@ if (!t) {
 						var $group = $(group.elements);
 						var $first = $group.first();
 
-						var defaultClass = window.freq_expand ? 'expanded' : 'collapsed';
+						var defaultClass = window.freq_expand == 2 ? 'freq-hidden' : (window.freq_expand ? 'expanded' : 'collapsed');
 						var $section = $('<div class="coca-srank-section ' + defaultClass + '">' +
 							'<div class="coca-srank-header">' +
 							'<span class="coca-srank-title">Frequency 词频</span>' +
